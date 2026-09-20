@@ -1,6 +1,6 @@
 // Thin fetch() wrapper around the fixed API envelope from Section 13:
 // { "success": true, "data": {...}, "error": null }
-const API_BASE = "/api/v1";
+const API_BASE = window.location.pathname.split("/")[1] ? "/" + window.location.pathname.split("/")[1] + "/api/v1" : "/api/v1";
 
 async function apiRequest(method, path, body) {
     const opts = {

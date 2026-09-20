@@ -14,5 +14,6 @@
     <p>No account? <a href="${pageContext.request.contextPath}/jsp/register.jsp">Register</a></p>
 </section>
 
+<script src="${pageContext.request.contextPath}/js/api.js"></script>
 <script src="${pageContext.request.contextPath}/js/login.js"></script>
 <%@ include file="/WEB-INF/jspf/footer.jspf" %>
