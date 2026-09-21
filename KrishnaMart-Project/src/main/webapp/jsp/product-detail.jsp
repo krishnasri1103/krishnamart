@@ -27,5 +27,6 @@
     <p id="reviewError" class="form-error"></p>
 </section>
 
+<script src="${pageContext.request.contextPath}/js/api.js"></script>
 <script src="${pageContext.request.contextPath}/js/product-detail.js"></script>
 <%@ include file="/WEB-INF/jspf/footer.jspf" %>

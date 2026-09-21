@@ -6,7 +6,7 @@ async function apiRequest(method, path, body) {
     const opts = {
         method,
         headers: { "Content-Type": "application/json" },
-        credentials: "same-origin"
+        credentials: "include"
     };
     if (body !== undefined) {
         opts.body = JSON.stringify(body);
