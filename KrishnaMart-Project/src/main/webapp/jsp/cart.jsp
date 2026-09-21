@@ -9,5 +9,6 @@
     <p id="checkoutMessage"></p>
 </section>
 
+<script src="${pageContext.request.contextPath}/js/api.js"></script>
 <script src="${pageContext.request.contextPath}/js/cart.js"></script>
 <%@ include file="/WEB-INF/jspf/footer.jspf" %>
